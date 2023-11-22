@@ -25,8 +25,7 @@ side2 = distance((x1[1], y1[1]), (x1[2], y1[2]))
 side3 = distance((x1[2], y1[2]), (x1[3], y1[3]))
 side4 = distance((x1[3], y1[3]), (x1[0], y1[0]))
 
-m = pd.Series([side1, side2, side3, side4], [
-              "side1", "side2", "side3", "side4"])
+m = pd.Series([side1, side2, side3, side4], ["side1", "side2", "side3", "side4"])
 
 diagonal1 = distance((x1[0], y1[0]), (x1[2], y1[2]))
 diagonal2 = distance((x1[1], y1[1]), (x1[3], y1[3]))
