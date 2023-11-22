@@ -1,14 +1,14 @@
-#варіант 20
-N=int(input("Введіть кількість слів: "))
+# варіант 20
+N = int(input("Введіть кількість слів: "))
 
-word= []
+word = []
 
 for i in range(N):
-    words= input("Введіть слово: ")
-    s= str.capitalize(words)
+    words = input("Введіть слово: ")
+    s = str.capitalize(words)
     word.append(s)
 
-list=[]
+list = []
 for s in word:
     if s not in list:
         list.append(s)
